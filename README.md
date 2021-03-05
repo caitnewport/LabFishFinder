@@ -1,5 +1,5 @@
 # LabFishFinder
-Very basic tracking program for fish in an aquarium. 
+Very basic tracking program for fish in an aquarium using Matlab. 
 
 This code was designed to be used to track a single fish in a laboratory aquarium where the scene does not change except for the moving fish. The tracking method is purely background substraction. Each frame of the video section selected is averaged to get a background. Each frame is then analysed and the pixels that are different from the average background are identified. Some movement due to water reflections can be tolerated.
 
